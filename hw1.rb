@@ -29,7 +29,6 @@ puts sum([1,2,3,4,5,6])
  
 class Student
   attr_accessor :name, :age, :program, :major
-
  	def initialize(name, age, program, major) 
         @name = name
         @age = age
@@ -39,11 +38,11 @@ class Student
 
 	def display  
 		puts "#{@name}-#{@age}-#{@program}-#{@major}"
-  end
+  	end
 end
 
 onestudent = Student.new("namejan",45,"progit","majorcom")
-# onestudent.display
+onestudent.display
 
 
 # #4.Write a method call sort_students
